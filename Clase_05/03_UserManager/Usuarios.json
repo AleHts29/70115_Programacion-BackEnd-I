@@ -1,0 +1,14 @@
+[
+  {
+    "nombre": "Juan",
+    "apellido": "Perez",
+    "edad": 30,
+    "curso": "Node.js"
+  },
+  {
+    "nombre": "Juan",
+    "apellido": "Perez",
+    "edad": 30,
+    "curso": "Node.js"
+  }
+]

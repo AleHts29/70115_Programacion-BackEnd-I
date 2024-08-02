@@ -35,13 +35,6 @@ if (fs.existsSync(fileName)) {
     console.log("Actualizando contenido del archivo:");
     console.log(contenido);
 
-    // // Borrar
-    // console.log("Borrando archivo..");
-    // fs.unlinkSync(fileName);
-
-    // // Si sucede algun error al borrar
-    // fs.existsSync(fileName) ? console.log("El archivo no se pudo borrar..") : console.log("Archivo borrado");
-
 } else {
     console.error("Error creando el archivo.");
 }
