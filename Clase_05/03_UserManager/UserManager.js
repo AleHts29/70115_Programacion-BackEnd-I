@@ -23,7 +23,11 @@ class UsersManager {
             }
 
             // Agregar el nuevo usuario al arreglo
-            usuarios.push(usuario)
+
+            // Generacion de ID de usuario
+            // let userId = usuario.length
+            // usuario.id = userId + 1
+            // usuarios.push(usuario)
 
 
             // Escribir el arreglo actualizado en el archivo
@@ -49,3 +53,20 @@ class UsersManager {
 
 module.exports = UsersManager; // 👈 No olvidar exportar
 
+
+
+/*
+Rutas
+
+# ruta absoluta
+/Users/ale-hts/Coffee_Coder/CoderHouse/BackEnd/70155_Comision
+ __dirname=/Users/ale-hts/Coffee_Coder/CoderHouse/BackEnd/70155_Comision/+"Usuarios.json"
+
+
+
+
+# ruta relativa
+/70155_Comision
+
+
+*/
