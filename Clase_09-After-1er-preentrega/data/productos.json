@@ -1,0 +1,30 @@
+[
+  {
+    "id": 2,
+    "title": "Zapatillas de Running",
+    "description": "Zapatillas ligeras y cómodas, perfectas para correr largas distancias.",
+    "code": "ZAPA01",
+    "price": 79.99,
+    "stock": 75,
+    "category": "Calzado Deportivo",
+    "thumbnails": [
+      "https://example.com/images/zapatillas1.jpg",
+      "https://example.com/images/zapatillas2.jpg"
+    ],
+    "status": true
+  },
+  {
+    "id": 3,
+    "title": "Camiseta Deportiva XXX",
+    "description": "Camiseta de manga corta hecha con material transpirable.",
+    "code": "CAMIS01",
+    "price": 29.99,
+    "stock": 350,
+    "category": "Ropa Deportiva",
+    "thumbnails": [
+      "https://example.com/images/camiseta1.jpg",
+      "https://example.com/images/camiseta2.jpg"
+    ],
+    "status": true
+  }
+]
