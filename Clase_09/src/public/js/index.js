@@ -1,0 +1,1 @@
+alert('Hola desde un script JS en public')
