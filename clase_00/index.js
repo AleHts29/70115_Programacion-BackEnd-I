@@ -6,6 +6,7 @@
 // console.log([1, 2, 3, "Hola", true]);
 
 
+
 // Tipos de datos
 let nombre // <-- declaracion de la variable, y es mutable
 nombre = "Jorge" // <-- asignacion de str

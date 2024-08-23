@@ -13,6 +13,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 
+
 // Middleware a nivel de App
 app.use(function (req, res, next) {
     console.log("Mi primer Middleware a ni nivel de APP");

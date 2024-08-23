@@ -9,6 +9,7 @@ obj.apellido = "Perez"
 // console.log(obj);
 
 
+
 // scope de las variables
 const testScope = function () {
     let i = 0
