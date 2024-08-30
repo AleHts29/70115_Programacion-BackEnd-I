@@ -92,3 +92,106 @@ closeChatBox.addEventListener('click', evt => {
 
     messageLogs.innerHTML = '';
 })
+
+
+
+
+/*=============================================
+=   After revision de 2da preEntrega          =
+=============================================*/
+
+// const producto = {
+//     nombre: "Producto Ejemplo",
+//     descripcion: "Descripción del producto",
+//     precio: 29.99,
+//     categoria: "Categoría Ejemplo",
+//     stock: 100
+// };
+
+// fetch('/api/products', {
+//     method: 'POST', // Método para crear un nuevo recurso
+//     headers: {
+//         'Content-Type': 'application/json' // Especifica que se envía un JSON
+//     },
+//     body: JSON.stringify(producto) // Convierte el objeto a una cadena JSON
+// })
+//     .then(response => {
+//         if (!response.ok) {
+//             throw new Error('Error en la creación del producto');
+//         }
+//         return response.json(); // Parsear la respuesta a JSON
+//     })
+//     .then(data => {
+//         console.log('Producto creado exitosamente:', data);
+//     })
+//     .catch(error => {
+//         console.error('Error:', error);
+//     });
+
+
+
+// Ejemplo de un registro desde un formulario
+
+/*
+esto va en un plantiolla .hbs pero es de un registro de usuario
+
+<div>
+    <h1>Registro</h1>
+    <form id="registerForm">
+
+        <label>Nombre</label>
+        <input name="first_name">
+        <br/>
+        <label>Apellido</label>
+        <input name="last_name">
+        <br/>
+        <label>Email</label>
+        <input name="email">
+        <br/>
+        <label>Edad</label>
+        <input name="age">
+        <br/>
+        <label>Contraseña</label>
+        <input name="password">
+
+        <input type="submit">
+    </form>
+    <p>¿Ya tienes una cuenta? <a href="/users/login">Ingresa aquí</a></p>
+</div>
+<script src="/js/register.js"></script>
+
+*/
+
+
+// const form = document.getElementById('registerForm');
+
+// form.addEventListener('submit', e => {
+//     e.preventDefault();
+//     const data = new FormData(form);
+//     console.log(data);
+//     const obj = {};
+//     data.forEach((value, key) => obj[key] = value);
+//     console.log("Objeto formado:");
+//     console.log(obj);
+//     fetch('/api/sessions/register', {
+//         method: 'POST',
+//         body: JSON.stringify(obj),
+//         headers: {
+//             'Content-Type': 'application/json'
+//         }
+//     }).then(result => {
+//         if (result.status === 201) {
+//             result.json();
+
+//             // Se poidria unsar el socket desde este punto
+//             // socket.emit()
+
+
+//             alert("Usuario creado con exito!");
+//             window.location.replace('/users/login');
+//         } else {
+//             alert("No se pudo crear el usuario!");
+//         }
+//     }).then(
+//         json => console.log(json));
+// })
