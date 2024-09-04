@@ -137,3 +137,6 @@ colegio > db.estudiantes.updateOne({ _id: ObjectId('66d0fe20085c5c4c4f394e4c') }
 
 // FindByID
 colegio > db.estudiantes.find({ _id: ObjectId('66d0fe20085c5c4c4f394e4c') })
+
+// DELETE
+colegio > db.estudiantes.deleteOne({ _id: ObjectId('66d0fe20085c5c4c4f394e4d') })
